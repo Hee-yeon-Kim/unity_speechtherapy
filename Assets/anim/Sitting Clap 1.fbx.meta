@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: sittingclap1
+    second: Sitting Clap 1
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -35,7 +35,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: sittingclap1
+      name: Sitting Clap 1
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
