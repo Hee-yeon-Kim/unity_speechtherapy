@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 6482415939431174300}
   m_Layer: 0
   m_Name: Bryce
-  m_TagString: Untagged
+  m_TagString: m_Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -387,7 +387,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9e8903d0d591fbf47bfb7a58473c5346, type: 2}
+  - {fileID: 2100000, guid: 218571c51a0a2c34694876aa7def1eab, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
