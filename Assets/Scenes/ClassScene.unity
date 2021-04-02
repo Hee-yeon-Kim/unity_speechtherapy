@@ -253,7 +253,12 @@ PrefabInstance:
     - target: {fileID: 559702898190383563, guid: 72c651a8771019940b0a7a4f1efa2932,
         type: 3}
       propertyPath: m_Name
-      value: Joe
+      value: CH_Joe
+      objectReference: {fileID: 0}
+    - target: {fileID: 559702898190383563, guid: 72c651a8771019940b0a7a4f1efa2932,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     - target: {fileID: 905125112650703729, guid: 72c651a8771019940b0a7a4f1efa2932,
         type: 3}
@@ -310,11 +315,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5317315021916282518, guid: 72c651a8771019940b0a7a4f1efa2932,
+    - target: {fileID: 6516579648940898571, guid: 72c651a8771019940b0a7a4f1efa2932,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 2100000, guid: 218571c51a0a2c34694876aa7def1eab, type: 2}
+      objectReference: {fileID: 9100000, guid: e137ace9bbe6ace4fb384d17ab896a77, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c651a8771019940b0a7a4f1efa2932, type: 3}
 --- !u!4 &61980855 stripped
@@ -451,7 +456,12 @@ PrefabInstance:
     - target: {fileID: 4004953068040771837, guid: fb625e672601e15459d72d9987d90e95,
         type: 3}
       propertyPath: m_Name
-      value: Josh
+      value: CH_Josh
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004953068040771837, guid: fb625e672601e15459d72d9987d90e95,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     - target: {fileID: 4386404006757270087, guid: fb625e672601e15459d72d9987d90e95,
         type: 3}
@@ -801,10 +811,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 218571c51a0a2c34694876aa7def1eab, type: 2}
+    - target: {fileID: 4452533873133126572, guid: f6ca591cae852fc4c981771f63c2d677,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e137ace9bbe6ace4fb384d17ab896a77, type: 2}
     - target: {fileID: 6944954762730341228, guid: f6ca591cae852fc4c981771f63c2d677,
         type: 3}
       propertyPath: m_Name
-      value: Lousie
+      value: CH_Lousie
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944954762730341228, guid: f6ca591cae852fc4c981771f63c2d677,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     - target: {fileID: 7722194668510992854, guid: f6ca591cae852fc4c981771f63c2d677,
         type: 3}
@@ -944,7 +964,12 @@ PrefabInstance:
     - target: {fileID: 6665984419824429876, guid: 7cef5b6515815764eac725227db9d97a,
         type: 3}
       propertyPath: m_Name
-      value: megan
+      value: CH_megan
+      objectReference: {fileID: 0}
+    - target: {fileID: 6665984419824429876, guid: 7cef5b6515815764eac725227db9d97a,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cef5b6515815764eac725227db9d97a, type: 3}
@@ -1112,10 +1137,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3537687678774885152}
     m_Modifications:
+    - target: {fileID: 613696454605638120, guid: d61b8444ca176454faf7ae7e1697fe8a,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e137ace9bbe6ace4fb384d17ab896a77, type: 2}
     - target: {fileID: 6138324741806754088, guid: d61b8444ca176454faf7ae7e1697fe8a,
         type: 3}
       propertyPath: m_Name
-      value: Kate
+      value: CH_Kate
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138324741806754088, guid: d61b8444ca176454faf7ae7e1697fe8a,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     - target: {fileID: 6801672903538660242, guid: d61b8444ca176454faf7ae7e1697fe8a,
         type: 3}
@@ -1250,7 +1285,12 @@ PrefabInstance:
     - target: {fileID: 1737228504021939207, guid: 1b2328a75aefdb942b279b3db962ccb5,
         type: 3}
       propertyPath: m_Name
-      value: leonard
+      value: CH_leonard
+      objectReference: {fileID: 0}
+    - target: {fileID: 1737228504021939207, guid: 1b2328a75aefdb942b279b3db962ccb5,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b2328a75aefdb942b279b3db962ccb5, type: 3}
@@ -1325,8 +1365,18 @@ PrefabInstance:
     - target: {fileID: 612975348105308867, guid: 1c344a55edaec39489eb0c3638dffad4,
         type: 3}
       propertyPath: m_Name
-      value: Jody
+      value: CH_Jody
       objectReference: {fileID: 0}
+    - target: {fileID: 612975348105308867, guid: 1c344a55edaec39489eb0c3638dffad4,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136794050640931331, guid: 1c344a55edaec39489eb0c3638dffad4,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e137ace9bbe6ace4fb384d17ab896a77, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c344a55edaec39489eb0c3638dffad4, type: 3}
 --- !u!4 &1952886186 stripped
@@ -1511,6 +1561,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3533046726354462554}
     m_Modifications:
+    - target: {fileID: 489222989474985586, guid: b13d7299840a0c449906c868287a8e86,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e137ace9bbe6ace4fb384d17ab896a77, type: 2}
     - target: {fileID: 5776496967515483144, guid: b13d7299840a0c449906c868287a8e86,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1569,7 +1624,12 @@ PrefabInstance:
     - target: {fileID: 6584805606061897394, guid: b13d7299840a0c449906c868287a8e86,
         type: 3}
       propertyPath: m_Name
-      value: Kate2
+      value: CH_Kate2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584805606061897394, guid: b13d7299840a0c449906c868287a8e86,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b13d7299840a0c449906c868287a8e86, type: 3}
@@ -1611,10 +1671,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3537782647616256344}
     m_Modifications:
+    - target: {fileID: 1075673119095577474, guid: 17ba283e044337d4ea4f3acb42022e5d,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e137ace9bbe6ace4fb384d17ab896a77, type: 2}
     - target: {fileID: 6000610515736156994, guid: 17ba283e044337d4ea4f3acb42022e5d,
         type: 3}
       propertyPath: m_Name
-      value: Jody2
+      value: CH_Jody2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000610515736156994, guid: 17ba283e044337d4ea4f3acb42022e5d,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     - target: {fileID: 6344907581690806776, guid: 17ba283e044337d4ea4f3acb42022e5d,
         type: 3}
@@ -1797,10 +1867,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3538013994011630176}
     m_Modifications:
+    - target: {fileID: 2138579192959392211, guid: 97dd7b97650f091448c252e64a98937e,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e137ace9bbe6ace4fb384d17ab896a77, type: 2}
     - target: {fileID: 4613443081489832211, guid: 97dd7b97650f091448c252e64a98937e,
         type: 3}
       propertyPath: m_Name
-      value: Sophie2
+      value: CH_Sophie2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613443081489832211, guid: 97dd7b97650f091448c252e64a98937e,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     - target: {fileID: 5426255525016699817, guid: 97dd7b97650f091448c252e64a98937e,
         type: 3}
@@ -1929,7 +2009,12 @@ PrefabInstance:
     - target: {fileID: 7883373433081107616, guid: cb86d14901d36264597accbb9ecd4360,
         type: 3}
       propertyPath: m_Name
-      value: leonard2
+      value: CH_leonard2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7883373433081107616, guid: cb86d14901d36264597accbb9ecd4360,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb86d14901d36264597accbb9ecd4360, type: 3}
@@ -1948,7 +2033,12 @@ PrefabInstance:
     - target: {fileID: 8243741085834316900, guid: f27073ae6e8aab143b526953482bcbaa,
         type: 3}
       propertyPath: m_Name
-      value: Suzie2
+      value: CH_Suzie2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8243741085834316900, guid: f27073ae6e8aab143b526953482bcbaa,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     - target: {fileID: 8731484051367712478, guid: f27073ae6e8aab143b526953482bcbaa,
         type: 3}
@@ -2027,7 +2117,7 @@ PrefabInstance:
     - target: {fileID: 314643443687985244, guid: 7d79c1786e7176845b785655ed0b12d5,
         type: 3}
       propertyPath: m_Name
-      value: Bryce
+      value: CH_Bryce
       objectReference: {fileID: 0}
     - target: {fileID: 1087063125055621862, guid: 7d79c1786e7176845b785655ed0b12d5,
         type: 3}
@@ -2084,11 +2174,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3515799401641734364, guid: 7d79c1786e7176845b785655ed0b12d5,
+    - target: {fileID: 6482415939431174300, guid: 7d79c1786e7176845b785655ed0b12d5,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 2100000, guid: 218571c51a0a2c34694876aa7def1eab, type: 2}
+      objectReference: {fileID: 9100000, guid: e137ace9bbe6ace4fb384d17ab896a77, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d79c1786e7176845b785655ed0b12d5, type: 3}
 --- !u!4 &2624712526904178119 stripped
@@ -2107,7 +2197,12 @@ PrefabInstance:
     - target: {fileID: 2345961265514053370, guid: c952f9db63942b247af864d40973762d,
         type: 3}
       propertyPath: m_Name
-      value: Sophie
+      value: CH_Sophie
+      objectReference: {fileID: 0}
+    - target: {fileID: 2345961265514053370, guid: c952f9db63942b247af864d40973762d,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     - target: {fileID: 3154023853709730880, guid: c952f9db63942b247af864d40973762d,
         type: 3}
@@ -2164,6 +2259,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9017749272552537658, guid: c952f9db63942b247af864d40973762d,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e137ace9bbe6ace4fb384d17ab896a77, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c952f9db63942b247af864d40973762d, type: 3}
 --- !u!4 &2871068456337683821
@@ -2564,7 +2664,7 @@ Transform:
   m_Children:
   - {fileID: 983840612}
   m_Father: {fileID: 3537782647616256344}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!4 &3533046726354462554
 Transform:
@@ -3201,6 +3301,7 @@ GameObject:
   - component: {fileID: 3538066652579039730}
   - component: {fileID: 760935692491661081}
   - component: {fileID: 3536344052131766057}
+  - component: {fileID: 3536344052131766058}
   m_Layer: 0
   m_Name: Room 5
   m_TagString: Untagged
@@ -3218,6 +3319,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bc95ce9f15a7c744973bc424c66359e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3536344052131766058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3536344052131766056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0f725ea4c71c943820fa3034e50037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3536375456758657388
@@ -3607,8 +3720,8 @@ Transform:
   m_LocalPosition: {x: 0.25, y: 0, z: -1.122}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6002004134926527293}
   - {fileID: 3533019326788381246}
+  - {fileID: 6002004134926527293}
   - {fileID: 3532566232426898770}
   - {fileID: 3532922492302353348}
   - {fileID: 3533067312177548824}
@@ -6124,6 +6237,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3538081324495666032}
     m_Modifications:
+    - target: {fileID: 3073690201499140907, guid: 4877108eb667f6c438fac24fbb7f6ebe,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e137ace9bbe6ace4fb384d17ab896a77, type: 2}
     - target: {fileID: 3317008587913035390, guid: 4877108eb667f6c438fac24fbb7f6ebe,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6132,7 +6250,12 @@ PrefabInstance:
     - target: {fileID: 8578245186175960043, guid: 4877108eb667f6c438fac24fbb7f6ebe,
         type: 3}
       propertyPath: m_Name
-      value: Lousie2
+      value: CH_Lousie2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8578245186175960043, guid: 4877108eb667f6c438fac24fbb7f6ebe,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     - target: {fileID: 8955368416270178641, guid: 4877108eb667f6c438fac24fbb7f6ebe,
         type: 3}
@@ -6222,7 +6345,12 @@ PrefabInstance:
     - target: {fileID: 3896370316762313167, guid: 0d7015225c03cb5408892b12dc8413c6,
         type: 3}
       propertyPath: m_Name
-      value: Josh2
+      value: CH_Josh2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896370316762313167, guid: 0d7015225c03cb5408892b12dc8413c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     - target: {fileID: 4420670630791097205, guid: 0d7015225c03cb5408892b12dc8413c6,
         type: 3}
@@ -6385,10 +6513,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3532748074463467502}
     m_Modifications:
+    - target: {fileID: 4415406787639048231, guid: 29430b6126241af47a6533540083cdaf,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e137ace9bbe6ace4fb384d17ab896a77, type: 2}
     - target: {fileID: 6984328122558544103, guid: 29430b6126241af47a6533540083cdaf,
         type: 3}
       propertyPath: m_Name
-      value: Joe2
+      value: CH_Joe2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6984328122558544103, guid: 29430b6126241af47a6533540083cdaf,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     - target: {fileID: 7757030073473901149, guid: 29430b6126241af47a6533540083cdaf,
         type: 3}
@@ -6828,7 +6966,12 @@ PrefabInstance:
     - target: {fileID: 6209363719828061784, guid: 433e2b423a857d24f98d1a302b1630ba,
         type: 3}
       propertyPath: m_Name
-      value: Suziefront
+      value: CH_Suziefront
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209363719828061784, guid: 433e2b423a857d24f98d1a302b1630ba,
+        type: 3}
+      propertyPath: m_TagString
+      value: m_Character
       objectReference: {fileID: 0}
     - target: {fileID: 6730567843009324258, guid: 433e2b423a857d24f98d1a302b1630ba,
         type: 3}
