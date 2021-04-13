@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - m_Character
+  - m_Distracted
+  - m_Fixed
+  - toggle
+  - chgameobject
   layers:
   - Default
   - TransparentFX

@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 6136794050640931331}
   m_Layer: 0
   m_Name: Jody
-  m_TagString: Untagged
+  m_TagString: m_Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,7 +140,7 @@ Animator:
   m_GameObject: {fileID: 612975348105308867}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: a681e8cc1f33db646a1e2b8c35b21add, type: 3}
-  m_Controller: {fileID: 9100000, guid: 69baafc78bc606b419c086fcb7cd9df9, type: 2}
+  m_Controller: {fileID: 9100000, guid: e137ace9bbe6ace4fb384d17ab896a77, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2111,7 +2111,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0d2ab7bee39596645af7bcee3a8bfb12, type: 2}
+  - {fileID: 2100000, guid: 218571c51a0a2c34694876aa7def1eab, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
