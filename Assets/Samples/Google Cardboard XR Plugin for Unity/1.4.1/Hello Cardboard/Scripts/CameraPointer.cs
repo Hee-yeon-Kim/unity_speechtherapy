@@ -27,6 +27,8 @@ public class CameraPointer : MonoBehaviour
     private const float _maxDistance = 10;
     private GameObject _gazedAtObject = null;
 
+    GameObject preSphere=null;
+
     /// <summary>
     /// Update is called once per frame.
     /// </summary>
@@ -40,17 +42,23 @@ public class CameraPointer : MonoBehaviour
             // GameObject detected in front of the camera.
             if (_gazedAtObject != hit.transform.gameObject)
             {
-                // New GameObject.
-                _gazedAtObject?.SendMessage("OnPointerExit");
-                _gazedAtObject = hit.transform.gameObject;
-                _gazedAtObject.SendMessage("OnPointerEnter");
+                if(_gazedAtObject==null)  _gazedAtObject = hit.transform.gameObject;
+                   if(_gazedAtObject.tag.Equals("toggle")){
+                    // New GameObject.
+                    _gazedAtObject?.SendMessage("OnPointerExit");
+                    _gazedAtObject = hit.transform.gameObject;
+                    _gazedAtObject.SendMessage("OnPointerEnter");
+                   }
             }
+               
         }
         else
         {
             // No GameObject detected in front of the camera.
-            _gazedAtObject?.SendMessage("OnPointerExit");
-            _gazedAtObject = null;
+                if(_gazedAtObject.tag.Equals("toggle")){
+                _gazedAtObject?.SendMessage("OnPointerExit");
+                _gazedAtObject = null;
+                 }
         }
 
         // Checks for screen touches.
@@ -59,4 +67,5 @@ public class CameraPointer : MonoBehaviour
             _gazedAtObject?.SendMessage("OnPointerClick");
         }
     }
+    
 }
