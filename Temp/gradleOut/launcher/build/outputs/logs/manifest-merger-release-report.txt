@@ -1,0 +1,365 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+MERGED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:3:1-69:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\47b39e44731f1525f1878f7dd1c83e0d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\45f040ce023c13cc5ce5f48415f4e114\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\18437ff800ca77ea1024618557c71bd3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1c848175752f05c96d3510338259a6a2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\4c062c8141f7ee8f21da1cf14b8dc339\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\9d01f3e641f9db0452bfab1fe6af5ea5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\97567f19b13e78d78b517ae69472e70d\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1cbce72f0fce5b3c14cc90d97db2e67f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\55f1e3e120cb013532b343ae82f8da21\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\c19bf9411aa69bfde62d43dfb5cb12ba\AndroidManifest.xml:17:1-22:12
+MERGED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:2:1-51:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\f6c6d14f5a4941b89de77bd2502c9a9a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\ab0a200513019adcee46eeda74a1e726\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\f968360684a8cc2e35a8ca351de5dce8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\bf31c37fdfafa374bc04651eb04df7bb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\be89e268569feec084b5dd32238b6887\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\593eb8bb607663989967890b8d35c01e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\89daa78b7f17785c67c8b4cd50b87146\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\f2b0f2c02bfcd3f7e1387b95f631911c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\bf6bc8ede78e9991bc190bc0dc9ff8d8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\0a1f5187d6f174709b698ed4f897464f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\57a2831a24b76f1eff95f4f7b082ac16\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1d0054970e1a677d1f564bdea5b1fa87\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\ae37903ac9f98a0f7d2634f5fc6d21f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\3ec8fb2770ba4f959e14e7a531895c7e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\c6a7e8d60f73261cff003a866c3eb3dc\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\2c7bb5c27a73d71d81322e7fd976eec4\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\8dd1374ba25150953ce4942786f266d3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\b6036f1c0e0f1f03ba72c07e933bda50\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1d7d835d2065492f4bfa0b34d514bda2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\f72160f641dc114bb834a483c0518506\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\f336379b1130807cf49d9e59ef972875\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\889f8dbdb0297b266b541bd2693a0f95\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\392c8954ffb02f3f2cb64e5575623518\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\4c418071e8081a6d3ebf4356d97955d1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\7c3c9fae042076bef676647ddfbec0de\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\8b19b76f012fe90097ecdced387d0204\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+	package
+		ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:70-100
+		INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+		INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:101-147
+	android:versionCode
+		INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+		INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:11-69
+	android:installLocation
+		ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:148-188
+supports-screens
+ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:3-163
+	android:largeScreens
+		ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:78-105
+	android:smallScreens
+		ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:21-48
+	android:normalScreens
+		ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:49-77
+	android:xlargeScreens
+		ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:106-134
+	android:anyDensity
+		ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:135-160
+application
+ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:3-83
+MERGED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:5-67:19
+MERGED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:5-67:19
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\45f040ce023c13cc5ce5f48415f4e114\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\45f040ce023c13cc5ce5f48415f4e114\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\18437ff800ca77ea1024618557c71bd3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\18437ff800ca77ea1024618557c71bd3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1c848175752f05c96d3510338259a6a2\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1c848175752f05c96d3510338259a6a2\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\9d01f3e641f9db0452bfab1fe6af5ea5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\9d01f3e641f9db0452bfab1fe6af5ea5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\97567f19b13e78d78b517ae69472e70d\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\97567f19b13e78d78b517ae69472e70d\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1cbce72f0fce5b3c14cc90d97db2e67f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1cbce72f0fce5b3c14cc90d97db2e67f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\55f1e3e120cb013532b343ae82f8da21\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\55f1e3e120cb013532b343ae82f8da21\AndroidManifest.xml:22:5-26:19
+MERGED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:24:5-49:19
+MERGED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:24:5-49:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\c6a7e8d60f73261cff003a866c3eb3dc\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\c6a7e8d60f73261cff003a866c3eb3dc\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\2c7bb5c27a73d71d81322e7fd976eec4\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\2c7bb5c27a73d71d81322e7fd976eec4\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\c6a7e8d60f73261cff003a866c3eb3dc\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:16-48
+	android:icon
+		ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:49-80
+uses-sdk
+INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+MERGED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-11:41
+MERGED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-11:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\47b39e44731f1525f1878f7dd1c83e0d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\47b39e44731f1525f1878f7dd1c83e0d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\45f040ce023c13cc5ce5f48415f4e114\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\45f040ce023c13cc5ce5f48415f4e114\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\18437ff800ca77ea1024618557c71bd3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\18437ff800ca77ea1024618557c71bd3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1c848175752f05c96d3510338259a6a2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1c848175752f05c96d3510338259a6a2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\4c062c8141f7ee8f21da1cf14b8dc339\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\4c062c8141f7ee8f21da1cf14b8dc339\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\9d01f3e641f9db0452bfab1fe6af5ea5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\9d01f3e641f9db0452bfab1fe6af5ea5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\97567f19b13e78d78b517ae69472e70d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\97567f19b13e78d78b517ae69472e70d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1cbce72f0fce5b3c14cc90d97db2e67f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1cbce72f0fce5b3c14cc90d97db2e67f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\55f1e3e120cb013532b343ae82f8da21\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\55f1e3e120cb013532b343ae82f8da21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\c19bf9411aa69bfde62d43dfb5cb12ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\c19bf9411aa69bfde62d43dfb5cb12ba\AndroidManifest.xml:20:5-44
+MERGED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:7:5-9:41
+MERGED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\f6c6d14f5a4941b89de77bd2502c9a9a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\f6c6d14f5a4941b89de77bd2502c9a9a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\ab0a200513019adcee46eeda74a1e726\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\ab0a200513019adcee46eeda74a1e726\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\f968360684a8cc2e35a8ca351de5dce8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\f968360684a8cc2e35a8ca351de5dce8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\bf31c37fdfafa374bc04651eb04df7bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\bf31c37fdfafa374bc04651eb04df7bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\be89e268569feec084b5dd32238b6887\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\be89e268569feec084b5dd32238b6887\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\593eb8bb607663989967890b8d35c01e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\593eb8bb607663989967890b8d35c01e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\89daa78b7f17785c67c8b4cd50b87146\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\89daa78b7f17785c67c8b4cd50b87146\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\f2b0f2c02bfcd3f7e1387b95f631911c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\f2b0f2c02bfcd3f7e1387b95f631911c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\bf6bc8ede78e9991bc190bc0dc9ff8d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\bf6bc8ede78e9991bc190bc0dc9ff8d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\0a1f5187d6f174709b698ed4f897464f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\0a1f5187d6f174709b698ed4f897464f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\57a2831a24b76f1eff95f4f7b082ac16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\57a2831a24b76f1eff95f4f7b082ac16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1d0054970e1a677d1f564bdea5b1fa87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1d0054970e1a677d1f564bdea5b1fa87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\ae37903ac9f98a0f7d2634f5fc6d21f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\ae37903ac9f98a0f7d2634f5fc6d21f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\3ec8fb2770ba4f959e14e7a531895c7e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\3ec8fb2770ba4f959e14e7a531895c7e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\c6a7e8d60f73261cff003a866c3eb3dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\c6a7e8d60f73261cff003a866c3eb3dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\2c7bb5c27a73d71d81322e7fd976eec4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\2c7bb5c27a73d71d81322e7fd976eec4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\8dd1374ba25150953ce4942786f266d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\8dd1374ba25150953ce4942786f266d3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\b6036f1c0e0f1f03ba72c07e933bda50\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\b6036f1c0e0f1f03ba72c07e933bda50\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1d7d835d2065492f4bfa0b34d514bda2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\1d7d835d2065492f4bfa0b34d514bda2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\f72160f641dc114bb834a483c0518506\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\f72160f641dc114bb834a483c0518506\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\f336379b1130807cf49d9e59ef972875\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\f336379b1130807cf49d9e59ef972875\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\889f8dbdb0297b266b541bd2693a0f95\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\889f8dbdb0297b266b541bd2693a0f95\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\392c8954ffb02f3f2cb64e5575623518\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\392c8954ffb02f3f2cb64e5575623518\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\4c418071e8081a6d3ebf4356d97955d1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\4c418071e8081a6d3ebf4356d97955d1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\7c3c9fae042076bef676647ddfbec0de\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\7c3c9fae042076bef676647ddfbec0de\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\8b19b76f012fe90097ecdced387d0204\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\8b19b76f012fe90097ecdced387d0204\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+uses-feature#0x00030000
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-54
+MERGED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:15:5-17:35
+MERGED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:15:5-17:35
+	android:glEsVersion
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:19-51
+	android:required
+		ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:17:9-32
+uses-permission#android.permission.INTERNET
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:5-67
+MERGED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:21:5-67
+MERGED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:22-77
+uses-permission#android.permission.BLUETOOTH
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-65
+uses-feature#android.hardware.microphone
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-51
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:5-31:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-72
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:9-53:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-50
+	android:launchMode
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-48
+	android:configChanges
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-194
+	android:theme
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-54
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-45:29
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:17-69
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:17-77
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:27-74
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:13-49:40
+	android:value
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-37
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:17-57
+meta-data#android.notch_support
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:13-52:40
+	android:value
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:17-37
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:17-53
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:9-57:33
+	android:value
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-30
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:9-60:36
+	android:value
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:13-47
+meta-data#notch.config
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:9-63:50
+	android:value
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-47
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-40
+meta-data#unity.build-id
+ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:9-66:68
+	android:value
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-65
+	android:name
+		ADDED from [:unityLibrary] C:\Users\IMS\Desktop\hy_speechtherapy\unity_speechtherapy\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-42
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\97567f19b13e78d78b517ae69472e70d\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\97567f19b13e78d78b517ae69472e70d\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\97567f19b13e78d78b517ae69472e70d\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\97567f19b13e78d78b517ae69472e70d\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\55f1e3e120cb013532b343ae82f8da21\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\55f1e3e120cb013532b343ae82f8da21\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\55f1e3e120cb013532b343ae82f8da21\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.CAMERA
+ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:19:5-65
+	android:name
+		ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:19:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.NFC
+ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:22:5-62
+	android:name
+		ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:22:22-59
+activity#com.google.cardboard.sdk.QrCodeCaptureActivity
+ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:25:9-29:66
+	android:label
+		ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:28:13-67
+	android:exported
+		ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:27:13-37
+	android:theme
+		ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:29:13-63
+	android:name
+		ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:26:13-74
+activity#com.google.cardboard.sdk.HeadsetDetectionActivity
+ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:35:9-48:20
+	android:label
+		ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:38:13-69
+	android:exported
+		ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:36:13-77
+intent-filter#action:name:android.nfc.action.NDEF_DISCOVERED+category:name:android.intent.category.DEFAULT+data:scheme:cardboard
+ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:41:13-47:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:42:17-77
+	android:name
+		ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:42:25-74
+category#android.intent.category.DEFAULT
+ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:44:17-76
+	android:name
+		ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:44:27-73
+data
+ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:46:17-52
+	android:scheme
+		ADDED from [:sdk:] C:\Users\IMS\.gradle\caches\transforms-2\files-2.1\347fa6884dfef3004e7c799272702d9d\AndroidManifest.xml:46:23-49

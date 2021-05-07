@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/ClassScene.unity
+- path: Assets/Scenes/audiotest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

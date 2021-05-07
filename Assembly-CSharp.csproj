@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\MicrophoneListener.cs" />
      <Compile Include="Assets\Model\facial_anim.cs" />
      <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\CameraPointer.cs" />
      <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\CardboardStartup.cs" />

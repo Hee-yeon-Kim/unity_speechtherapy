@@ -27,7 +27,7 @@ public class CharacterAnimator : MonoBehaviour
             if(flag2<50) animator.SetBool("Mirror",true);
             else animator.SetBool("Mirror",false);
             animator.SetFloat("Offset",Random.Range(-0.4f,0.4f));
-            animator.SetFloat("Speed",Random.Range(0.6f,1.4f));
+            animator.SetFloat("Speed",Random.Range(0.6f,1.2f));
         }
  Debug.Log( "사이 임");
         switch(Mode){
@@ -109,7 +109,7 @@ public class CharacterAnimator : MonoBehaviour
                 animator2.SetInteger("MotionFlag",a2);
                 animator3.SetInteger("MotionFlag",a3);
                 animator1.SetTrigger("motion1");
-                animator2.SetTrigger("motion1");
+               // animator2.SetTrigger("motion1");
                 animator3.SetTrigger("motion1");
 
                 break;
