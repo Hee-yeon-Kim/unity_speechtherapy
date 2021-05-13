@@ -8,26 +8,30 @@ public class progressManager : MonoBehaviour
 {
     float timer = 0;
 
-    private AndroidJavaObject activityContext = null;
-    private AndroidJavaClass javaClass = null;
-    private AndroidJavaObject javaClassInstance = null;
+    // private AndroidJavaObject activityContext = null;
+    // private AndroidJavaClass javaClass = null;
+    // private AndroidJavaObject javaClassInstance = null;
 
     public Image c1,c2,c3,c4,c5,c6,c7,c8,c9,c10;
+    public Image anxietyMark;
  
+    public Sprite GreenSign,RedSign;
+
     public Text scoretext;
 
     // Start is called before the first frame update
     void Start()
     {
-        scoretext = GetComponent<Text>();
+        // scoretext = GetComponent<Text>();
         
         timer = 0;
-        javaClass = new AndroidJavaClass("com.ims.e4receiver.E4BroadcastReceiver");
-        javaClassInstance = javaClass.CallStatic<AndroidJavaObject>("createInstance");
-        //data 받기 시작
-        javaClassInstance.Call("register_Receiver");
+        // javaClass = new AndroidJavaClass("com.heeyeon.newreceiver.FeedbackReceiver");
+        // javaClassInstance = javaClass.CallStatic<AndroidJavaObject>("createInstance");
+        // //data 받기 시작
+        //Get Android context
 
-        javaClassInstance.Call("Initialize");
+        //   javaClassInstance.Call("register_Receiver");
+
     }
 
     private void ChangeColor(int score)
@@ -45,6 +49,9 @@ public class progressManager : MonoBehaviour
 
         switch (score)
         {
+            case 0:
+                break;
+
             case 1:
                 color1 = new Color(255f / 255f, 90f / 255f, 0f / 255f);
                 color2 = new Color(255f / 255f, 45f / 255f, 0f / 255f);
@@ -53,12 +60,12 @@ public class progressManager : MonoBehaviour
                 //scoretext.text = "나쁨";
                 break;
             case 2:
-                color1 = new Color(255f / 255f, 190f / 255f, 0f / 255f);
-                color2 = new Color(235f / 255f, 190f / 255f, 0f / 255f);
-                color3 = new Color(215f / 255f, 190f / 255f, 0f / 255f);
-                color4 = new Color(195f / 255f, 190f / 255f, 0f / 255f);
-                color5 = new Color(170f / 255f, 190f / 255f, 0f / 255f);
-                color6 = new Color(160f / 255f, 190f / 255f, 0f / 255f);
+                color1 = new Color(255f / 255f, 130f / 255f, 0f / 255f);
+                color2 = new Color(255f / 255f, 130f / 255f, 0f / 255f);
+                color3 = new Color(255f / 255f, 130f / 255f, 0f / 255f);
+                color4 = new Color(255f / 255f, 130f / 255f, 0f / 255f);
+                color5 = new Color(255f / 255f, 130f / 255f, 0f / 255f);
+                color6 = new Color(255f / 255f, 130f / 255f, 0f / 255f);
 
                 break;
             case 3:
@@ -83,7 +90,7 @@ public class progressManager : MonoBehaviour
                 color8 = new Color(0f / 255f, 200f / 255f, 0f / 255f);
                 color9 = new Color(0f / 255f, 230f / 255f, 0f / 255f);
                 color10 = new Color(0f / 255f, 255f / 255f, 0f / 255f);
-
+                anxietyMark.sprite = GreenSign;
                 break;
             
 
@@ -104,14 +111,13 @@ public class progressManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timer > 5.6f)//10초 마다 확인
+        if (timer > 10f)//10초 마다 확인
         {
             timer = 0f;
 
             checkStatus();
         }
         timer += Time.unscaledDeltaTime;
-
         
     }
 
@@ -119,37 +125,41 @@ public class progressManager : MonoBehaviour
     {
         try
         {
-            int[] tmp = javaClassInstance.Call<int[]>("getScores");
-
-            if (tmp != null)
+            int tmp =Random.Range(1,5);// javaClassInstance.Call<int>("getScore");
+            if (tmp >=0&&tmp<=4)
             {
-                int len = tmp.Length;
-                if (tmp.Length > 0)
+                switch (tmp)
                 {
-                    int gotscore = tmp[len - 1];
-                    scoretext.text = gotscore.ToString() + "점";
-                    int flag = 0;
-                    if (gotscore > 75) flag = 4;
-                    else if (gotscore > 50) flag = 3;
-                    else if (gotscore > 25) flag = 2;
-                    else flag = 1;
-                    ChangeColor(flag);
-
+                    case 0:
+                        scoretext.text = "Analyzing... ";
+                        break;
+                    case 1:
+                        scoretext.text = "Very Poor";
+                        break;
+                    case 2:
+                        scoretext.text = "Poor";
+                        break;
+                    case 3:
+                        scoretext.text = "Good";
+                        break;
+                    case 4:
+                        scoretext.text = "Excellent";
+                        break;
                 }
+
+                ChangeColor(tmp);
             }
         }
         catch
         {
+            scoretext.text = "/";
             return;
         }
 
     }
     private void OnDisable()
     {
-        javaClassInstance.Call("unregister_Receiver");
-        /* AndroidNotificationCenter.CancelAllNotifications();
-         AndroidNotificationCenter.DeleteNotificationChannel("channel_id");
-         //javaClassInstance.Call("unregister_Receiver");*/
-
+        // javaClassInstance.Call("unregister_Receiver");
+        
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterAnimator : MonoBehaviour
 {
- 
+   public AudioClip quietsrc, loudsrc;
 
     GameObject[] m_CharacterList;
     GameObject[] m_FixedList;
@@ -15,6 +15,7 @@ public class CharacterAnimator : MonoBehaviour
     {
         m_CharacterList = GameObject.FindGameObjectsWithTag("m_Character");
         m_FixedList = GameObject.FindGameObjectsWithTag("m_Fixed");
+        AudioSource audioSource= GetComponent<AudioSource>();
 
         int m_size = m_CharacterList.Length;
         Debug.Log(m_size+"사이즈임");
@@ -27,17 +28,19 @@ public class CharacterAnimator : MonoBehaviour
             if(flag2<50) animator.SetBool("Mirror",true);
             else animator.SetBool("Mirror",false);
             animator.SetFloat("Offset",Random.Range(-0.4f,0.4f));
-            animator.SetFloat("Speed",Random.Range(0.6f,1.2f));
+            animator.SetFloat("Speed",Random.Range(0.73f,1.2f));
         }
- Debug.Log( "사이 임");
         switch(Mode){
             case 1://1탄
                  FixedReation(true,true,true,true,true);
+                 audioSource.clip = quietsrc;
+                 audioSource.volume=0.2f;
                 break;
             case 2:
                 FixedReation(false,false,true,true,true);
                 m_CharacterList[0].GetComponent<Animator>().SetTrigger("bad1");
-
+                audioSource.clip = quietsrc;
+                audioSource.volume=0.4f;
                 break;
             case 3:
                 FixedReation(false,false,false,false,false);
@@ -45,7 +48,8 @@ public class CharacterAnimator : MonoBehaviour
                 m_CharacterList[2].GetComponent<Animator>().SetTrigger("gobad");
                 m_CharacterList[6].GetComponent<Animator>().SetTrigger("bad1");
                 m_CharacterList[7].GetComponent<Animator>().SetTrigger("toobad");
-
+                audioSource.clip = loudsrc;
+                audioSource.volume=0.13f;
                 break;
 
         }
@@ -56,7 +60,7 @@ public class CharacterAnimator : MonoBehaviour
         // animator1.SetFloat("Offset",m_CurrentClipLength/3f);
         // animator2.SetFloat("Offset",0f);  
     
-    
+      audioSource.Play();
       
     }
 
@@ -89,11 +93,11 @@ public class CharacterAnimator : MonoBehaviour
     void randomReaction(int flag){
         int n1=0, n2=0,n3=0;
         if(flag==1){
-            n1 = 1; n2=3; n3=11;
+            n1 = 1; n2=11; n3=7;
         } else if(flag==2){
-            n1=1; n2=2; n3=8;
+            n1=2; n2=0; n3=8;
         } else {
-            n1=7; n2=4; n3=10;
+            n1=6; n2=4; n3=3;
         }
         Animator animator1=  m_CharacterList[n1].GetComponent<Animator>();
         Animator animator2=  m_CharacterList[n2].GetComponent<Animator>();
@@ -137,7 +141,7 @@ public class CharacterAnimator : MonoBehaviour
     void Update()
     {
        timer += Time.deltaTime;
-       if(timer>10){
+       if(timer>6.5f){
            randomReaction(ReactionFlag++);
            timer=0f;
            if(ReactionFlag>3){

@@ -44,9 +44,12 @@
      <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\VrModeController.cs" />
      <Compile Include="Assets\Scripts\CameraPointer2.cs" />
      <Compile Include="Assets\Scripts\CharacterAnimator.cs" />
+     <Compile Include="Assets\Scripts\CharacterAnimator2.cs" />
+     <Compile Include="Assets\Scripts\CharacterAnimator3.cs" />
      <Compile Include="Assets\Scripts\UIcontroller.cs" />
      <Compile Include="Assets\Scripts\progressManager.cs" />
      <Compile Include="Assets\Scripts\room5.cs" />
+     <Compile Include="Assets\timerscript.cs" />
      <None Include="Assets\Low Poly Office\Read Me.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
