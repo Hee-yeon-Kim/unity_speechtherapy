@@ -9,6 +9,17 @@ TagManager:
   - m_Fixed
   - toggle
   - chgameobject
+  - S1
+  - S2
+  - S3
+  - L1
+  - L2
+  - L3
+  - c2
+  - c3
+  - c1
+  - c4
+  - toggle2
   layers:
   - Default
   - TransparentFX

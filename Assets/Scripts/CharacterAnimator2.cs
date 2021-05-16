@@ -14,6 +14,8 @@ public class CharacterAnimator2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Mode = StaticVar.Level;
+
         m_CharacterList = GameObject.FindGameObjectsWithTag("m_Character");
         m_FixedList = GameObject.FindGameObjectsWithTag("m_Fixed");
         AudioSource audioSource= GetComponent<AudioSource>();

@@ -15,6 +15,8 @@ public class CharacterAnimator3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Mode = StaticVar.Level;
+
         lousie = lousie.GetComponent<Animator>();
         leonard = leonard.GetComponent<Animator>();
         AudioSource audioSource= GetComponent<AudioSource>();

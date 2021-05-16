@@ -59,15 +59,15 @@ public class VrModeController : MonoBehaviour
         // https://docs.unity3d.com/ScriptReference/Screen-brightness.html.
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
         Screen.brightness = 1.0f;
-
+        EnterVR();
         // Checks if the device parameters are stored and scans them if not.
         // This is only required if the XR plugin is initialized on startup,
         // otherwise these API calls can be removed and just be used when the XR
         // plugin is started.
-        if (!Api.HasDeviceParams())
-        {
-            Api.ScanDeviceParams();
-        }
+        //if (!Api.HasDeviceParams())
+       // {
+        //    Api.ScanDeviceParams();
+        //}
     }
 
     /// <summary>

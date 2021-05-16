@@ -8,9 +8,10 @@ public class progressManager : MonoBehaviour
 {
     float timer = 0;
 
-    // private AndroidJavaObject activityContext = null;
-    // private AndroidJavaClass javaClass = null;
-    // private AndroidJavaObject javaClassInstance = null;
+
+    private AndroidJavaObject activityContext = null;
+    private AndroidJavaClass javaClass = null;
+    private AndroidJavaObject javaClassInstance = null;
 
     public Image c1,c2,c3,c4,c5,c6,c7,c8,c9,c10;
     public Image anxietyMark;
@@ -18,24 +19,25 @@ public class progressManager : MonoBehaviour
     public Sprite GreenSign,RedSign;
 
     public Text scoretext;
+    [HideInInspector] public bool isInterrupted;
+    [HideInInspector] public int badcount = 0; float totaltimer = 0f;
+    public GameObject BioPanel, Character;
 
     // Start is called before the first frame update
     void Start()
     {
-        // scoretext = GetComponent<Text>();
-        
         timer = 0;
-        // javaClass = new AndroidJavaClass("com.heeyeon.newreceiver.FeedbackReceiver");
-        // javaClassInstance = javaClass.CallStatic<AndroidJavaObject>("createInstance");
-        // //data 받기 시작
-        //Get Android context
+        javaClass = new AndroidJavaClass("com.heeyeon.newreceiver.FeedbackReceiver");
+        javaClassInstance = javaClass.CallStatic<AndroidJavaObject>("createInstance");
 
-        //   javaClassInstance.Call("register_Receiver");
-
+        javaClassInstance.Call("register_Receiver");
+        scoretext.text = "Analyzing... ";
+        isInterrupted = false;
     }
 
     private void ChangeColor(int score)
     {
+        if (score > 4) return;
         Color color1 = Color.gray;
         Color color2 = Color.gray;
         Color color3 = Color.gray;
@@ -90,7 +92,6 @@ public class progressManager : MonoBehaviour
                 color8 = new Color(0f / 255f, 200f / 255f, 0f / 255f);
                 color9 = new Color(0f / 255f, 230f / 255f, 0f / 255f);
                 color10 = new Color(0f / 255f, 255f / 255f, 0f / 255f);
-                anxietyMark.sprite = GreenSign;
                 break;
             
 
@@ -111,25 +112,55 @@ public class progressManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timer > 10f)//10초 마다 확인
+        if (timer > 5f)//10초 마다 확인
         {
             timer = 0f;
 
             checkStatus();
         }
         timer += Time.unscaledDeltaTime;
+        totaltimer += Time.unscaledDeltaTime;
         
     }
-
+    void sendToMain()
+    {
+        javaClassInstance.Call("sendDATA", badcount, totaltimer);
+    }
+    private void OnDestroy()
+    {
+        sendToMain();
+    }
+    int anxietycount = 0;
     void checkStatus()
     {
         try
         {
-            int tmp =Random.Range(1,5);// javaClassInstance.Call<int>("getScore");
-            if (tmp >=0&&tmp<=4)
+            int breathscore = javaClassInstance.Call<int>("getBREATH");
+
+            int anxiety = javaClassInstance.Call<int>("getScore");
+            if (anxiety == 1)
             {
-                switch (tmp)
-                {
+                anxietycount++;
+            }
+            else
+            {
+                anxietycount = 0;
+            }
+
+            if(anxietycount>=6 && isInterrupted == false)
+            {//30s anxiety==1
+                isInterrupted = true;
+                StartCoroutine(StartFeedback());
+              
+            }
+
+            if (isInterrupted == false)
+            {
+                return;
+            }
+
+            switch (breathscore)
+            {
                     case 0:
                         scoretext.text = "Analyzing... ";
                         break;
@@ -145,21 +176,41 @@ public class progressManager : MonoBehaviour
                     case 4:
                         scoretext.text = "Excellent";
                         break;
-                }
-
-                ChangeColor(tmp);
             }
+            ChangeColor(breathscore);
+            if (anxiety == 1)
+            {
+                anxietyMark.sprite = RedSign;
+            } else
+            {
+                anxietyMark.sprite = GreenSign;
+            }
+
         }
         catch
         {
             scoretext.text = "/";
             return;
         }
+        
 
     }
     private void OnDisable()
     {
         // javaClassInstance.Call("unregister_Receiver");
         
+    }
+    IEnumerator StartFeedback()
+    {
+        BioPanel.SetActive(true);
+        Character.SetActive(true);
+        isInterrupted = true;
+        badcount++;
+
+        yield return new WaitForSeconds(152);
+        BioPanel.SetActive(false);
+        Character.SetActive(false);
+        isInterrupted = false;
+
     }
 }

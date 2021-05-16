@@ -18,7 +18,7 @@
 
 using System.Collections;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 /// <summary>
 /// Sends messages to gazed GameObject.
 /// </summary>
@@ -26,6 +26,8 @@ public class CameraPointer2 : MonoBehaviour
 {
     private const float _maxDistance = 150;
     private GameObject _gazedAtObject = null;
+   public  GameObject BioFeedbackPanel,BioCharacter;
+    public progressManager _progressManager;
 
     GameObject preSphere=null;
 
@@ -42,48 +44,61 @@ public class CameraPointer2 : MonoBehaviour
             // GameObject detected in front of the camera.
             if (_gazedAtObject != hit.transform.gameObject)
             {
-               if(_gazedAtObject==null)  _gazedAtObject = hit.transform.gameObject;
+                _gazedAtObject = hit.transform.gameObject;
 
-                if(_gazedAtObject.tag=="toggle"){
+                if (_gazedAtObject.tag == "toggle") {
                     // New GameObject.
-                    _gazedAtObject?.SendMessage("OnPointerExit");
-                    _gazedAtObject = hit.transform.gameObject;
-                    _gazedAtObject.SendMessage("OnPointerEnter");
-                } else if(_gazedAtObject.tag=="chgameobject"){
-                    if(preSphere!=null) ChangeMat(preSphere,false);
-                    _gazedAtObject = hit.transform.gameObject;
-                    preSphere=_gazedAtObject.transform.GetChild(1).gameObject;
-                    ChangeMat(preSphere,true);
+                    Debug.Log("toggle");
+                   
+                    SceneManager.LoadScene("StartScene");
+                } else if (_gazedAtObject.tag == "toggle2") {
+                    Debug.Log("toggle2");
                      
-                } else{
-                     if(preSphere!=null) {
-                         ChangeMat(preSphere,false);
-                         preSphere=null;
-                     }
-                     _gazedAtObject = hit.transform.gameObject;                    
+                    StartCoroutine(StartFeedback());
                 }
+                /*else if (_gazedAtObject.tag == "chgameobject") {
+                  //  if (preSphere != null) ChangeMat(preSphere, false);
+                  //  _gazedAtObject = hit.transform.gameObject;
+                  //  preSphere = _gazedAtObject.transform.GetChild(1).gameObject;
+                   // ChangeMat(preSphere, true);
+
+                } else {
+                    if (preSphere != null) {
+                        ChangeMat(preSphere, false);
+                        preSphere = null;
+                    }
+                    _gazedAtObject = hit.transform.gameObject;
+                }*/
             }
         }
         else
         {
             // No GameObject detected in front of the camera.
-            if(_gazedAtObject.tag=="toggle"){ 
-                _gazedAtObject?.SendMessage("OnPointerExit");
-                _gazedAtObject = null;
+            if(_gazedAtObject.tag=="toggle"|| _gazedAtObject.tag == "toggle2")
+            { 
+                 _gazedAtObject = null;
             }
         }
 
-        // Checks for screen touches.
-        if (Google.XR.Cardboard.Api.IsTriggerPressed)
-        {
-            _gazedAtObject?.SendMessage("OnPointerClick");
-        }
+        
     }
-    public Material SphereRed;
-    public Material SphereWhite;
-    public void ChangeMat(GameObject gameObject, bool isActive){
+ /*   public Material SphereRed;
+     public Material SphereWhite;
+    public void ChangeMat( GameObject gameObject, bool isActive){
+        if (gameObject == null) return;
         if(isActive) gameObject.GetComponent<MeshRenderer>().material = SphereRed;
         else gameObject.GetComponent<MeshRenderer>().material =  SphereWhite;
         
+    }*/
+    IEnumerator StartFeedback()
+    {
+       BioFeedbackPanel.SetActive(true);
+        BioCharacter.SetActive(true);
+        _progressManager.isInterrupted = true;
+        _progressManager.badcount++;
+        yield return new WaitForSeconds(180);
+       BioFeedbackPanel.SetActive(false);
+        BioCharacter.SetActive(false);
+
     }
 }

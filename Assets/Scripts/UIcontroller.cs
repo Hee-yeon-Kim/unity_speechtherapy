@@ -10,7 +10,7 @@ public class UIcontroller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _myToggle = GetComponent<Toggle>();
+       
          text = GetComponentInChildren<Text>() ; 
     
     }
@@ -57,11 +57,11 @@ public class UIcontroller : MonoBehaviour
         
       if(_myToggle.isOn){ 
            _myToggle.isOn=false; 
-            text.text= "Off";
+      
       } 
       else {
         _myToggle.isOn=true;
-        text.text= "On";
+
 
       } 
     }
