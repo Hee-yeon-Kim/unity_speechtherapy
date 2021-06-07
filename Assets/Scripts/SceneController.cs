@@ -105,15 +105,15 @@ public class SceneController : MonoBehaviour
         }
 
         Toggle LevelPick = LevelPicker.ActiveToggles().FirstOrDefault();
-        if (ModePick.CompareTag("L1"))
+        if (LevelPick.CompareTag("L1"))
         {
             StaticVar.Level = 1;
         }
-        else if (ModePick.CompareTag("L2"))
+        else if (LevelPick.CompareTag("L2"))
         {
             StaticVar.Level = 2;
         }
-        else if (ModePick.CompareTag("L3"))
+        else if (LevelPick.CompareTag("L3"))
         {
             StaticVar.Level = 3;
         }

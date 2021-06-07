@@ -9,11 +9,11 @@ public class CharacterAnimator : MonoBehaviour
     GameObject[] m_CharacterList;
     GameObject[] m_FixedList;
     float timer=0;
-    public int Mode=3;
+    public int Mode=1;
     // Start is called before the first frame update
     void Start()
     {
-        Mode = StaticVar.Level;
+       Mode = StaticVar.Level;
         m_CharacterList = GameObject.FindGameObjectsWithTag("m_Character");
         m_FixedList = GameObject.FindGameObjectsWithTag("m_Fixed");
         AudioSource audioSource= GetComponent<AudioSource>();

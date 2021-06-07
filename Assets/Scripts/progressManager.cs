@@ -207,7 +207,7 @@ public class progressManager : MonoBehaviour
         isInterrupted = true;
         badcount++;
 
-        yield return new WaitForSeconds(152);
+        yield return new WaitForSeconds(57);
         BioPanel.SetActive(false);
         Character.SetActive(false);
         isInterrupted = false;

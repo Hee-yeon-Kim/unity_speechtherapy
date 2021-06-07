@@ -96,7 +96,7 @@ public class CameraPointer2 : MonoBehaviour
         BioCharacter.SetActive(true);
         _progressManager.isInterrupted = true;
         _progressManager.badcount++;
-        yield return new WaitForSeconds(180);
+        yield return new WaitForSeconds(57);
        BioFeedbackPanel.SetActive(false);
         BioCharacter.SetActive(false);
 
